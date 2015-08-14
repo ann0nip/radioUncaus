@@ -1,5 +1,5 @@
 $(document).ready(function(){
-	alert('anda');
+setTimeout(function(){ alert("Hello"); }, 60000);
   $("#jquery_jplayer_1").jPlayer({
     ready: function () {
       $(this).jPlayer("setMedia", {
