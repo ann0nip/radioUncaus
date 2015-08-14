@@ -1,4 +1,5 @@
 $(document).ready(function(){
+	alert('anda');
   $("#jquery_jplayer_1").jPlayer({
     ready: function () {
       $(this).jPlayer("setMedia", {
